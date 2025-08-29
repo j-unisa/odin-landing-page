@@ -1,3 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
     font-family: "Century Gothic", Futura, sans-serif;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(19, 33, 54);
+}
+
+.header {
+    margin: auto;
+}
+
+.left-items {
+    color: white;
+}
+
+.right-items ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: rgb(174, 174, 174);
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 80px;
 }
