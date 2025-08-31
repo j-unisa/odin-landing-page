@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: "Century Gothic", Futura, sans-serif;
+    font-family: "Century Gothic", "Arial", Futura, sans-serif;
     display: flex;
     flex-flow: column;
     background-color: rgb(19, 33, 54);
@@ -19,7 +19,27 @@ body {
     margin: auto;
 }
 
-.left-items {
+.header-content {
+    max-width: 938px;
+    display: flex;
+    gap: 40px;
+}
+
+.hero-text {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-text, 
+.right-items ul {
+    color: rgb(185, 185, 185);
+}
+
+.left-items, 
+button, 
+h1 {
     color: white;
 }
 
@@ -29,7 +49,6 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    color: rgb(174, 174, 174);
 }
 
 a,
@@ -38,9 +57,29 @@ a:visited {
     color: inherit;
 }
 
+button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    max-width: 300px;
+}
+
+h1, 
+p {
+    margin: 0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0 80px;
+    margin: 10px 0 90px;
 }
