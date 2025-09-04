@@ -26,6 +26,7 @@ body {
     width: 1000px;
 }
 
+/* refactored header */
 .header {
     display: flex;
     flex-flow: column;
