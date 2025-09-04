@@ -9,10 +9,10 @@ html {
 }
 
 body {
-    font-family: "Century Gothic", "Arial", Futura, sans-serif;
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-flow: column;
-    background-color: rgb(19, 33, 54);
+    background-color: #1F2937;
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
 }
 
 .header-content {
-    max-width: 938px;
+    max-width: 1000px;
     display: flex;
     gap: 40px;
 }
@@ -35,7 +35,8 @@ body {
 
 .hero-text, 
 .right-items ul {
-    color: rgba(169, 169, 169);
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .info {
@@ -65,11 +66,26 @@ body {
     border-radius: 10px;
 }
 
-.left-items, 
-button, 
-h1 {
-    color: white;
-    font-weight: bold;
+.left-items {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 90px 0;
+}
+
+.quotation {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
 }
 
 .right-items ul {
@@ -78,6 +94,14 @@ h1 {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.signature {
+    align-self: center;
+    width: 800px;
+    text-align: end;
+    font-weight: bold;
+    padding-right: 35px;
 }
 
 .subtext {
@@ -92,9 +116,10 @@ a:visited {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #3882F6;
     color: white;
     font-size: 16px;
+    font-weight: 900;
     padding: 7px 30px;
     border: none;
     border-radius: 10px;
@@ -102,7 +127,16 @@ button {
 }
 
 h1 {
-    max-width: 300px;
+    max-width: 330px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 h1, 
