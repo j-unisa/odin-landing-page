@@ -41,6 +41,24 @@ p {
     margin: 0;
 }
 
+button {
+    color: white;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 7px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero-text button {
+    border: none;    
+}
+
+.cta button {
+    border: 2px solid white;
+}
+
 nav {
     width: 1000px;
     margin: 10px 0 90px;
@@ -57,19 +75,24 @@ nav {
     background-color: #1F2937;
 }
 
-.cta-container {
+.info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     background-color: white;
+    padding-bottom: 90px;
 }
 
-.cta {
-    margin: 90px auto;
-    padding: 40px 130px;
-    border-radius: 10px;
+.quote {
     display: flex;
-    justify-content: space-between;
-    background-color: #3882F6;
-    color: white;
-    width: 1000px;
+    flex-flow: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.cta-container {
+    background-color: white;
 }
 
 .footer {
@@ -78,6 +101,20 @@ nav {
     width: 100vw;
     padding: 35px 0;
     text-align: center;
+}
+
+.left-items {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.right-items ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .header-content {
@@ -91,6 +128,17 @@ nav {
     flex-flow: column;
     align-items: flex-start;
     gap: 10px;
+}
+
+.cta {
+    margin: 90px auto;
+    padding: 40px 130px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    width: 1000px;
 }
 
 .cta-text {
@@ -108,17 +156,10 @@ nav {
     color: #E5E7EB;
 }
 
-.info {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    background-color: white;
-    padding-bottom: 90px;
-}
-
 .info h2 {
     margin: 30px 0 40px;
 }
+
 .info-images {
     display: flex;
     gap: 40px;
@@ -135,20 +176,10 @@ nav {
     border-radius: 10px;
 }
 
-.left-items {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
+.subtext {
+    text-align: center;
+    color: rgb(131, 131, 131);
 }
-
-.quote {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    background-color: #E5E7EB;
-    padding: 100px 0;
-}
-
 .quotation {
     font-size: 36px;
     font-weight: light;
@@ -157,41 +188,10 @@ nav {
     max-width: 800px;
 }
 
-.right-items ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 .signature {
     align-self: center;
     width: 800px;
     text-align: end;
     font-weight: bold;
     padding-right: 35px;
-}
-
-.subtext {
-    text-align: center;
-    color: rgb(131, 131, 131);
-}
-
-button {
-    color: white;
-    background-color: #3882F6;
-    font-size: 18px;
-    font-weight: 900;
-    padding: 7px 30px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.hero-text button {
-    border: none;    
-}
-
-.cta button {
-    border: 2px solid white;
 }
